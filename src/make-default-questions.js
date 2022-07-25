@@ -17,7 +17,6 @@ module.exports = (allPackages, changedPackages) => ([
       {value: 'ci',       name: 'ci:       Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)'},
       {value: 'chore',    name: 'chore:    Other changes that do not modify src or test files'},
       {value: 'revert',   name: 'revert:   Revert to a commit'},
-      {value: 'wip',      name: 'wip:      Work in progress'}
     ],
   },
   {

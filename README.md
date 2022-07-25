@@ -5,7 +5,7 @@
 Changes:
 
 - add types (build、ci)
-- modify type WIP ☞ wip
+- remove type WIP
 - modify some types description, the same as [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
 
 ## 2.0.0
