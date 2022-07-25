@@ -1,5 +1,13 @@
 # cz-lerna-changelog
 
+## Fork from [atlassian/cz-lerna-changelog](https://github.com/atlassian/cz-lerna-changelog)
+
+Changes:
+
+- add types (build、ci)
+- modify type WIP ☞ wip
+- modify some types description, the same as [commitizen/cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
+
 ## 2.0.0
 
 Version 2.0.0 is compatible with lerna version 3 only, if you need support for lerna 2 (more specifically, lerna 2.0.0.beta.31).

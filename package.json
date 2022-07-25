@@ -2,12 +2,12 @@
   "name": "@e.fe/cz-lerna-changelog",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "lib/index.js",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "scripts": {
     "build": "babel src -d lib",
     "commit": "git-cz",
     "test": "mocha --compilers js:babel-register test/**/*.js",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "files": [
